@@ -1,1 +1,1 @@
-<img src="checkbox.jpg" alt="SepehrHariri">
+<img src="img/checkbox.jpg" alt="SepehrHariri">
