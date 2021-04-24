@@ -15,3 +15,12 @@ body {
     color: #555;
     background-color: #f6f6f6;
 }
+
+.login-div {
+    width: 430px;
+    height: 700px;
+    padding: 60px 35px 35px;
+    border-radius: 40px;
+    background-color: #ecf0f3;
+    box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #fff;
+}
