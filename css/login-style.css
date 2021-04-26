@@ -52,3 +52,12 @@ body {
     width: 100%;
     padding: 75px 5px 5px;
 }
+
+.fields input {
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 18px;
+    color: #555;
+    padding: 20px 10px 20px 5px;
+}
