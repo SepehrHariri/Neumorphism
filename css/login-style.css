@@ -89,3 +89,18 @@ body {
     box-shadow: 3px 3px 8px #b1b1b1, -3px -3px 8px #fff;
     transition: all 0.5s;
 }
+
+.signin-button:hover {
+    background-color: #50e5b9;
+}
+
+.link {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.link a {
+    text-decoration: none;
+    color: #aaa;
+    font-size: 15px;
+}
