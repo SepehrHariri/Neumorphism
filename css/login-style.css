@@ -65,7 +65,7 @@ body {
 .username, .password {
     margin-bottom: 30px;
     border-radius: 25px;
-    box-shadow: inset 8px #cbced1, inset -8px -8px 8px #fff;
+    box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #fff;
 }
 
 .fields svg {
