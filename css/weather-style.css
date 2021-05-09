@@ -8,3 +8,18 @@ html {
 body {
     background-color: #f6f6f6;
 }
+
+.color-cool {
+    color: #077dfe;
+}
+
+.color-warm {
+    color: #ff7a00;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 25px;
+    align-items: center;
+}
