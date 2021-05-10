@@ -36,3 +36,29 @@ body {
     overflow: hidden;
     padding: 30px;
 }
+
+.app-top-bar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.app-heading {
+    color: #222;
+    display: block;
+    flex: 1;
+    font-size: 28px;
+    font-weight: 800;
+    margin: 0;
+    text-align: center;
+}
+
+button {
+    border: 0;
+}
+
+button:focus {
+    border: none;
+    outline: 0 !important;
+    outline-style: none;
+}
