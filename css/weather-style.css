@@ -73,3 +73,130 @@ button:focus {
     box-shadow: -6px -6px 8px rgba(255, 255, 255, 0.9), 5px 5px 8px rgba(0, 0, 0, 0.07);
     cursor: pointer;
 }
+
+.button.button-link {
+    color: #067CF8;
+    display: block;
+    font-size: 17px;
+    margin: 30px 0 0;
+    padding: 20px 0;
+    width: 100%;
+}
+
+.button.button-small {
+    color: #6D6E74;
+    font-size: 22px;
+    line-height: 40px;
+    width: 40px;
+    height: 40px;
+}
+
+.button.button-large {
+    display: flex;
+    font-size: 20px;
+    flex-direction: column;
+    padding: 15px;
+    text-align: left;
+    width: 45%;
+}
+
+.button.button-large svg {
+    margin-bottom: 40px;
+    width: 30px;
+}
+
+.button-dial {
+    border-radius: 50%;
+    display: flex;
+    height: 270px;
+    margin: 35px auto;
+    align-items: center;
+    justify-content: center;
+    width: 270px;
+}
+
+.button-dial-top {
+    background: #f2f3f7;
+    box-shadow: -6px -6px 8px rgba(255, 255, 255, 0.9), 5px 5px 8px rgba(0, 0, 0, 0.07);
+    border-radius: 50%;
+    width: 70%;
+    height: 70%;
+    margin: 0 auto;
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    text-align: center;
+    z-index: 5;
+}
+
+.button-dial-label {
+    color: #067CF8;
+    font-size: 28px;
+    fill: #067CF8;
+    position: relative;
+    z-index: 10;
+}
+
+.button-dial-label svg {
+    display: block;
+}
+
+.button-dial-warm {
+    color: orange;
+    font-size: 28px;
+    fill: #067CF8;
+    position: relative;
+    z-index: 10;
+}
+
+.button-dial-spoke {
+    background-color: rgba(96, 171, 254, 0.6);
+    display: block;
+    height: 2px;
+    width: 83%;
+    position: absolute;
+    margin: 0 auto;
+    z-index: 5;
+    top: 50%;
+}
+
+.button-dial-spoke:nth-child(2) {
+    transform: rotate(30deg);
+}
+
+.button-dial-spoke:nth-child(3) {
+    transform: rotate(60deg);
+}
+
+.button-dial-spoke:nth-child(4) {
+    transform: rotate(90deg);
+}
+
+.button-dial-spoke:nth-child(5) {
+    transform: rotate(120deg);
+}
+
+.button-dial-spoke:nth-child(6) {
+    transform: rotate(150deg);
+}
+
+.button-block {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 24px;
+    width: 100%;
+}
+
+.button-block span {
+    font-size: 16px;
+}
+
+.subtle {
+    color: #6D6E74;
+}
+
+.flex-button-container {
+    display: flex;
+    justify-content: space-between;
+}
